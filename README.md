@@ -1,1 +1,3 @@
-# RESEARCH-GROUP-7
+layout: page
+title: "Home | iFitness"
+permalink: /main/index.html
