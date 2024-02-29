@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="icon" href="image/logoicon.png"/>
+    <script src="https://kit.fontawesome.com/411e9dc743.js" crossorigin="anonymous"></script>
+    <script defer src="signup-script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | iFitness</title>
+</head>
+<body>
+    <div class="fade">
+    <nav>
+        <div class="nav-logo">
+            <a href="#"><img src="image/logo.png" alt="logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li class="link"><a href="/home/home.html">Home</a></li>
+            <li class="link"><a href="/programs/programs-main.html">Programs</a></li>
+            <li class="link"><a href="/community/community.html">Community</a></li>
+            <li class="link"><a href="/contacts/contacts.html">Contacts</a></li>
+            <li class="link"><a href="/about/about.html">About</a></li>
+        </ul>
+        <button class="tap" onclick="window.location.href='signup placeholder.html'">Get Started</button>
+        <div class="tap-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="dropdown">
+        <li class="link"><a href="/home/home.html">Home</a></li>
+        <li class="link"><a href="/programs/programs-main.html">Programs</a></li>
+        <li class="link"><a href="/community/community.html">Community</a></li>
+        <li class="link"><a href="/contacts/contacts.html">Contacts</a></li>
+        <li class="link"><a href="/about/about.html">About</a></li>
+        <li><button class="tap" onclick="window.location.href='signup placeholder.html'">Get Started</button></li>
+    </div>
+    
+    <header class="section-container">
+        <span class="bg-blur"></span>
+        <span class="bg-blur header-blur"></span>
+            <form>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="1" max="120">
+                <label for="weight">Weight:</label>
+                    <input type="number" id="weight" name="weight" min="1" max="500">
+                <label for="height">Height:</label>
+                    <input type="number" id="height" name="height" min="1" max="300">
+                <label for="goal">Choose your fitness goal:</label>
+                <select id="goal">
+                    <option value="lose-weight">Lose Weight</option>
+                    <option value="gain-muscle">Gain Muscle</option>
+                    <option value="get-shredded">Get Shredded</option>
+                </select>
+            </form>
+        <button class="sign" onclick="window.location.href='/programs/programs-main.html'">Submit</button>
+        <script src="script.js"></script>
+</body>
+</html>
+
